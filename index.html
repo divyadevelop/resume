@@ -2,65 +2,218 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
-  <title>My Professional Site</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Divya's Profile</title>
+    <style>
+        ul{
+        list-style-type: square;
+        list-style-position: outside;
+        }
+        
+        li
+        {
+        font-family:Garamond;
+        font-size:15px;
+        font-weight:bold;
+        }
+        .mail
+        {
+        font-size:15px;
+        align-content:center;
+        color:#5F7588;
+        font-weight:bold;
+        }
+        
+        .material-icons
+        {
+        font-size:10px;
+        }
+        
+        .skills
+        {
+        font-family:Garamond;
+        font-size:20px;
+        border:1px groove grey;
+        border-radius:5px;
+        border-width:2px;
+        background-color:#5F7588;
+        color:white;
+        }
+        
+        #new{
+        font-size:15px;
+        }
+        
+        .ww
+        {
+        color:white;
+        
+        }
+        
+        .wx
+        {
+        color:white;
+        }
+        
+        .ii
+        {
+        font-size:16px;
+        }
+        
+        .i1
+        {
+        font-size:18px;
+        }
+        
+        .i2
+        {
+        font-family:Garamond;
+        font-size:15px;
+        font-weight:bold;
+        margin-left:30px;
+        }
+        
+        .ix
+        {
+        font-size:16px;
+        color:black;
+        }
+        
+        .ullist
+        {
+        color:black;
+        font-weight:20px;
+        }
+ </style>
+
 </head>
-<!-- http://markusvogl.com/web1/interactive_box_model/css_box_demo.html -->
-
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I am Brainvat</h1>
-    <h2>
-      a <span class="pro-span">pro</span>grammer.
-    </h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="image-me" src="images/brainvat-circle-cropped.png" alt="Brainvat">
-      <h2>Hello.</h2>
-      <p class="profile-text">This web site is an assignment for the Web Development 2020 Boot Camp course taught by Angela Yu of the London App Brewery.</p>
+<body style="background-image:url('https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')">
+    <div>
+    <div  style="background-color:black;width:250px;height:1366px;background-color:#F2D8C7;float:left;margin-left:150px">
+    <img src="myphoto.jpg" width=150 height=160 style="margin-left:39px;margin-top:20px;border:4px dashed #5F7588">
+    <p style="font-family:Anton;color:#5F7588;font-weight:bold;font-size:20px;margin-top:25px" align="center">DIVYA PARVATHI J</p>
+    <div style="margin-top:25px">
+    <p style="align-content: flex-start;"> <i class="material-icons">&#xe0cd;</i><span class="mail"> 7673975442</span><br>
+    <i class="material-icons">&#xe0be;</i><span class="mail">  divyajinkala05@gmail.com</span><br><i class="material-icons">&#xe0c8;</i><span class="mail">Anantapur,AP,India</span></p>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skill-image-left" src="images/my-icons-collection/png/003-computer.png" alt="Computer Programming">
-        <h3>Computer Programming</h3>
-        <p>I am able to read and interpret code in over a dozen languages including modern dialects like JavaScript, Swift, Objective-C and DART as well as some older more obscure types such as Smalltalk.  LISP still largely escapes me.</p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-image-right" src="images/my-icons-collection/png/001-report.png" alt="Data Science">
-        <h3>Data Science</h3>
-        <p>While I don't have the full skills of a professional data scientist, I do have a strong background in statistics and mathematics, computer programming, and a deep business domain knowledge of digital advertising and very broad knowledge of modern deep learning approaches.</p>
-      </div>
+    <p style="align-content:flex-start;" class="skills" style="margin-top:25px"><b>Certifications</b></p>
+    <ul style="align-content: center;">
+    <li >Programming Essentials In Python [Cisco]</li>
+    <li >Introduction to Data Science in Python [Coursera]</li>
+    <li >Build a Full Website using WordPress [Coursera]</li>
+    <li >Introduction to HTML5 [Coursera]</li>
+    </ul>
+    <p style="align-content:flex-start;" class="skills" style="margin-top:30px"><b>Languages</b></p>
+    <div style="margin-left:60px">
+    <ul class="ullist">
+    <li >English</li>
+    <li>Telugu</li>
+    </ul>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Find me on Linked In!</h3>
-      <p>If you're trying to contact me professionally, look me up on <a href="https://www.linkedin.com/in/ahammock">Linked In.</a></p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    <p style="align-content:flex-start;" class="skills" style="margin-top:28px"><b>Interests</b></p>
+    <div style="margin-left:60px">
+    <ul>
+    <li><b>Traveling</b></li>
+    <li><b>Painting</b></li>
+    <li><b>Music</b></li>
+    <li><b>Gardening</b></li>
+    </ul>
     </div>
-  </div>
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/ahammock">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/brainvat">Twitter</a>
-    <a class="footer-link" href="https://github.com/brainvat">Github</a>
-    <p class="copyright">© 2020 Brainvat</p>
-  </div>
-
-  <div class="bottom-attribution">
-    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-  </div>
-
-</body>
-
+    
+    <p style="align-content: flex-start;" class="skills" style="margin-top:29px"><b>Co-Curricular Activities</b></p>
+    <ul class="ww" style="margin-top:29px">
+    <li class="ix" style="margin-top:19px">I was elected as Captain & Vice-Captain of the teams named "Ekta" and "Medha" during my school days</li>
+    <li class="ix" style="margin-top:19px">I won second place in Paper Presentation at Cynosure Fest</li>
+    <li class="ix" style="margin-top:19px">I participated in raising money for the HUD HUD cyclone disaster management</li>
+    <li class="ix" style="margin-top:19px">I participated in State Level Yoga and Hand Ball Competition</li>
+    </ul>
+    
+    </div>
+    <div  style="background-color: #5F7588;width:700px;height:800px;float:left;" >
+    <div style="background-color:#5F7588;width:700px;height:360px;" >
+    
+    <p style="padding-left:15px;font-weight:bold;background-color:#F2D8C7;margin-left:10px;margin-right:10px;color:#5F7588;width:450px;height:25px;margin-left:25px;margin-top:40px;padding-top:2px;font-size:17px" ><b>EDUCATION</b></p>
+    <p class="ww" style="padding-left:15px;font-weight:bold;margin-left:10px;margin-right:10px;font-size:20px;font-family:Garamond">Bachelor's Of Technology: Computer Science And Engineering (CSE)<br>[2018-22]
+    <ul class="ww">
+    <li  class="ii">Sree Vidyanikethan Engineering College, Tirupati.</li>
+    <li  class="ii">CGPA:8.3/10</li></ul></p>
+    <p class="ww" style="padding-left:10px;font-weight:bold;margin-left:10px;margin-right:10px;font-size:20px;font-family:Garamond">Intermediate: MPC [2016-18]
+    <ul class="ww">
+    <li class="ii" >Sri Chaitanya Girls College,Vijayawada.</li>
+    <li class="ii">Marks: 954/1000</li></ul></p>
+    <p class="ww" style="padding-left:10px;font-weight:bold;margin-left:10px;margin-right:10px;font-size:20px;font-family:Garamond">Secondary School [2016]
+    <ul class="ww">
+    <li class="ii" >Akshara International School</li>
+    <li class="ii">CGPA:10/10</li></ul></p>
+    </div>
+    
+    <div style="background-color:#5F7588;width:700px;height:435px;float:left" >
+    <p style="padding-left:15px;font-weight:bold;background-color:#F2D8C7;margin-left:10px;margin-right:10px;color:#5F7588;width:450px;height:25px;margin-left:25px;margin-top:20px;padding-top:2px;font-size:17px" ><b>WORK EXPERIENCE</b></p>
+    <p class="ww" style="padding-left:10px;font-size:18px;margin-left:10px;margin-right:10px;margin-top:20px"><b>MARKETING INTERNSHIP</b> <br>
+    <span style="padding-left:10px;font-size:20px;font-family:Garamond"><b>Company:PriceBaba [12/2019 - 01/2020] </b></span><br>
+    <ul class="ww">
+    Tasks:
+    <li class="i1">I ended up learning Gadgets specifications </li>
+    <li class="i1">We were engaged in dealing with customers satisfaction</li>
+    </ul>
+    </p>
+    <br>
+    <p class="ww" style="padding-left:10px;font-size:18px;margin-left:10px;margin-right:10px"><b>YOLO OBJECT DETECTION INTERNSHIP<br>
+    <span style="padding-left:10px;font-size:20px;font-family:Garamond"><b>Company: The Tann Mann Gaadi [06/2021 - 07/2021]</b></span><br>
+    <ul class="ww">
+    Tasks:
+    <li class="i1">Work with the Yolo model for object detection. </li>
+    <li class="i1">Handle annotations for training the Yolo labeling model.</li>
+    <li class="i1">Gained theoretical knowledge on Image Classification.
+    </li>
+    </ul>
+    </p>
+    
+    </div>
+    
+    <div style="width:700px;height:330px;float:left;background-color:#5F7588">
+    <p style="padding-left:15px;font-weight:bold;background-color:#F2D8C7;margin-left:10px;margin-right:10px;color:#5F7588;width:450px;height:25px;margin-left:25px;margin-top:10px;padding-top:2px;font-size:17px" ><b>ACADEMIC PROJECTS </b></p>
+    <dl class="ww" style="padding-left:10px">
+    <dt style="font-weight:bold;margin-right:10px;font-size:15px;margin-left:10px;margin-top:25px">SPAM OR HAM CLASSIFIER</dt>
+    <dd class="i2">- I used ML algorithms & Python modules like Sklearn,Numpy,Pandas,Pickle for classifying mails either into Spam or Ham</dd>
+    </dl>
+    <dl class="ww" style="padding-left:10px">
+    <dt style="font-weight:bold;margin-right:10px;font-size:15px;margin-left:10px;margin-top:25px">BASIC CHATBOT</dt>
+    <dd class="i2">- I used Python's ChatterBot module to build the chatbot, which lets the user to know more about my resume.</dd>
+    
+    </dl>
+    <dl class="ww" style="padding-left:10px">
+    <dt style="font-weight:bold;margin-right:10px;font-size:15px;margin-left:10px;margin-top:25px">CARTOONIFYING AN IMAGE</dt>
+    <dd class="i2">- The project is all about turning images into cartoons using Python's OpenCV module.</dd>
+    </dl>
+    
+    </div>
+    
+    <div style="width:700px;height:200px;float:left;background-color:#5F7588">
+    <p style="padding-left:15px;font-weight:bold;background-color:#F2D8C7;margin-left:10px;margin-right:10px;color:#5F7588;width:450px;height:25px;margin-left:25px;margin-top:1px;padding-top:2px;font-size:17px;margin-bottom:30px" ><b>SKILLS </b></p>
+    <p style="margin-bottom:20px"><span style="border:1px solid white;margin-left:50px;margin-top:30px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >Python</span>
+    <span style="border:1px solid white;margin-left:50px;margin-top:30px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >MySQL</span>
+    <span style="border:1px solid white;margin-left:50px;margin-top:30px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >HTML5</span>
+    <span style="border:1px solid white;margin-left:50px;margin-top:30px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >CSS3</span>
+    <span style="border:1px solid white;margin-left:50px;margin-top:30px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >C</span>
+    
+    <p style="margin-left:20px">
+    
+    <span style="border:1px solid white;margin-left:30px;margin-top:50px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >WordPress</span>
+    <span style="border:1px solid white;margin-left:50px;margin-top:50px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >C++</span>
+    <span style="border:1px solid white;margin-left:50px;margin-top:50px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >C</span>
+    <span style="border:1px solid white;margin-left:50px;margin-top:50px;background-color:#F2D8C7;border-radius:5px;padding:5px;color:#5F7588" >MSOffice</span></p>
+    </p>
+    </div>
+    
+    
+    </div>
+    </div>
+    </body>
 </html>
